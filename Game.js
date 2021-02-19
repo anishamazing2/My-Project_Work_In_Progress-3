@@ -68,6 +68,7 @@ class Game {
         player4.visible = true;
         player5.visible = true;
         player6.visible = true;
+        ballSprite.visible=true;
         //var display_position = 100;
         
         //index of the array
@@ -122,7 +123,7 @@ class Game {
       if(player1.isTouching(ballSprite)){
         
       }
-      if(player2.isTouching()){
+      /*if(player2.isTouching()){
         
       }
       if(player3.isTouching()){
@@ -136,7 +137,7 @@ class Game {
       }
       if(player6.isTouching()){
         
-      }
+      }*/
       switch(player.brawlerNum){
         case 1:
       }
